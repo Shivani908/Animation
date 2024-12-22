@@ -3,7 +3,8 @@ let yes = document.getElementById('yes');
 const answer = document.getElementById('answer')
 
 yes.addEventListener('click', () => {
-  alert("yes i know you");
+  // alert("yes i know you");
+   answer.change.innerHTML("Yes i know")
 });
 
 
