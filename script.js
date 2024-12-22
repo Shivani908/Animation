@@ -1,11 +1,13 @@
 const target = document.getElementById('target');
 let yes = document.getElementById('yes');
-const answer = document.getElementById('answer')
+var ans = document.getElementById("ans")
 
-yes.addEventListener('click', () => {
-  // alert("yes i know you");
-   answer.change.innerHTML("Yes i know")
-});
+function showans(){
+document.getElementById("ans").innerHTML = "yes i know"
+// document.getElementById("yes").onclick = showans;
+}
+document.getElementById("yes").onclick = showans;
+
 
 
 function moveTarget(){
