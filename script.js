@@ -3,7 +3,7 @@ let yes = document.getElementById('yes');
 var ans = document.getElementById("ans")
 
 function showans(){
-document.getElementById("ans").innerHTML = "yes i know"
+document.getElementById("ans").innerHTML = "<h1> Yes I Know You </h1>"
 // document.getElementById("yes").onclick = showans;
 }
 document.getElementById("yes").onclick = showans;
