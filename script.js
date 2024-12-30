@@ -18,6 +18,7 @@ function moveTarget(){
     const ranomY = Math.floor(Math.random() * maxHeight);
 
     target.style.left = ranomX + 'px';
+    
     target.style.top = ranomY + 'px'
 }
 
