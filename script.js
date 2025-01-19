@@ -10,6 +10,7 @@ document.getElementById("yes").onclick = showans;
 
 
 function moveTarget(){
+    
     const maxWith = 300;
     const maxHeight = 300;
 
